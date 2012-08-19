@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#80C020">
+    
+    <!-- Username Field -->
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo" />
+    
+    <TextView
+        	android:id="@+id/intro"
+  			android:layout_width="fill_parent"
+  			android:layout_height="wrap_content"
+  			android:textSize="15dip"
+  			android:textStyle="bold"
+  			android:text="Login with your my.cl.ly account"
+  			android:padding="10dip"
+  			android:textColor="#ffffff"
+  			android:gravity="center_horizontal"/>
+
+	<EditText
+	    android:id="@+id/email"
+	    android:hint="Email"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginRight="20dip"
+	    android:layout_marginLeft="20dip"
+	    android:layout_marginBottom="5dip"
+	    android:singleLine="true"/>
+    
+    <!-- Password Field -->
+	<EditText
+	    android:id="@+id/password" 
+	    android:hint="Password"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginRight="20dip"
+	    android:layout_marginLeft="20dip"
+	    android:layout_marginBottom="5dip"
+	    android:inputType="textPassword"
+	    android:singleLine="true"/>
+	
+	<!-- Button Create Product -->
+	<Button android:id="@+id/btnLogin" 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginRight="20dip"
+	    android:layout_marginLeft="20dip"
+	    android:text="Login"/>
+	
+</LinearLayout>

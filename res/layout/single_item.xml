@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="@drawable/bgrepeat"
+  android:tileMode="repeat">
+  
+  
+  <TextView android:id="@+id/item_name"
+  			android:layout_width="fill_parent"
+  			android:layout_height="wrap_content"
+  			android:textSize="20dip"
+  			android:textStyle="bold"
+  			android:padding="10dip"
+  			android:layout_marginTop="100dip"
+  			android:gravity="center_horizontal"
+  			android:textColor="#ffffff"/>  
+  			
+  <TextView android:id="@+id/link"
+  			android:layout_width="fill_parent"
+  			android:layout_height="wrap_content"
+  			android:textSize="1dip"
+  			android:textStyle="bold"
+  			android:textColor="#000000"
+  			android:gravity="center_horizontal"
+  			android:background="#ffffff"
+  			android:visibility="gone"/>
+  
+  <Button android:id="@+id/download"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Download"
+        android:layout_marginRight="100dip"
+  		android:layout_marginLeft="100dip"
+        android:layout_marginTop="5dip"/>
+  
+  <TextView android:id="@+id/extra"
+  			android:layout_width="fill_parent"
+  			android:layout_height="wrap_content"
+  			android:textSize="10dip"
+  			android:textStyle="bold"
+  			android:textColor="#777777"
+  			android:padding="10dip"
+  			android:gravity="center_horizontal"/>
+  
+</LinearLayout>

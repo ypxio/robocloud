@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Single menu item
+         Set id, icon and Title for each menu item
+    -->
+    <item android:id="@+id/menu_bookmark"
+          android:icon="@drawable/icons"
+          android:title="All Items" />
+ 
+    <item android:id="@+id/menu_save"
+          android:icon="@drawable/icons"
+          android:title="Upload" />
+ 
+    <item android:id="@+id/menu_search"
+          android:icon="@drawable/icons"
+          android:title="Logout" />
+</menu>
